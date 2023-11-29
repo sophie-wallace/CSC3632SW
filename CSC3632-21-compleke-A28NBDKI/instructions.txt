@@ -1,0 +1,11 @@
+You have to break the protocol in order to get your flag.
+
+The protocol is based on the third game at https://morisset.gitlab.io/ispag/tutorial/interactive.html 
+
+- There are three machines playing the protocol: A, B and S.
+- The protocol aims to let A and B exchange a secret session key and a secret message.
+
+You are provided with a specific version of that protocol, which is deployed at a specific address, provided in the script protocol.sh which executes the protocol cleanly in the way it was meant to run. Note that you don't have to use protocol.sh, and can simply use the URL provided in the script. 
+
+If you are struggling, try to solve first simpleke and then the web-based game from the link above, step by step.
+
