@@ -1,0 +1,14 @@
+You have to break the protocol in order to get your flag.
+
+The protocol is similar in nature to the simpleke challenge, so make sure you solved simpleke first!
+
+- There are two machines playing the protocol: A and B.
+- The protocol aims to let A and B exchange a secret session key and a secret message.
+
+The main difference with simpleke is that in this version, the programmer decided to use AES a bit more securely, by using a proper Initialisation Vector. The resulting approach is more complex than what is used in the aes challenge or the simpleke or complexke challenge. 
+
+However, luckily, you are also provided with a code fragment that is currently used in the code to manage the encryption and decryption in crypto_fragment.php. Note that this is PHP code, and will not run directly in the command line ...
+
+
+As before, you are provided with a specific version of that protocol, which is deployed at a specific address, provided in the script protocol.sh which executes the protocol cleanly in the way it was meant to run. 
+  If you are struggling, try to solve first simpleke, complexke and the web-based game from the link above, step by step.
